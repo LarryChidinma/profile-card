@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url(./90\ Simple\ Backgrounds\ [Edit\ and\ Download].jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+.background{
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px ;
+}
+.my-image{
+    margin-top: -50px;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+span{
+    font-weight: lighter;
+}
+.h2{
+    padding-top: 25px;
+}
+p{
+    padding-top: 10px;
+}
+.main{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    border-top: 1px solid rgba(146, 144, 144, 0.571);
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+
